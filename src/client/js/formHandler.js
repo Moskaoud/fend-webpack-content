@@ -1,6 +1,7 @@
 function handleSubmit(event) {
     event.preventDefault()
 
+    //console.log('e.target.value',event.target.value)
     // check what text was put into the form field
     let formText = document.getElementById('name').value
     checkForName(formText)
